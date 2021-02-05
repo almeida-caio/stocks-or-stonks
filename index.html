@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stocks or stonks?</title>
+	<script src="image-bank/real_stock_metadata.js"></script>
+	<script src="masterScript.js"></script>
+	<style>
+		.button {
+			border: none;
+			color: white;
+			padding: 12px 24px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-style: bold;
+			font-size: 23px;
+			font-family: futura;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+
+		.button1 { 
+			background-color: #F4E4C1;
+			color: black;
+			border: 2px solid #E4C580;
+			border-radius: 14px;
+		}
+
+		.button1:hover {
+			background-color: black;
+			color: white;
+		}
+
+		.keyButton {
+			border: none;
+			color: white;
+			padding: 7px 14px;
+			text-align: center;
+			text-decoration: none;
+			display: inline-block;
+			font-style: bold;
+			font-size: 20px;
+			font-family: futura;
+			margin: 4px 2px;
+			transition-duration: 0.4s;
+			cursor: pointer;
+		}
+
+		.button2 { 
+			background-color: #08114A;
+			color: white;
+			border: 2px solid #08114A;
+			border-radius: 0px;
+		}
+
+		.button2:hover {
+			background-color: white;
+			color: black;
+		}
+
+		.buttonReset { 
+			background-color: #08114A;
+			color: white;
+			border: 2px solid #08114A;
+			border-radius: 0px;
+		}
+
+		.buttonReset:hover {
+			background-color: white;
+			color: black;
+		}
+	</style>
+	<center><span style="font-size: 45px; color: white; font-family: didot">STOCKS</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 40px; color: white; font-family: futura">or</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="font-size: 45px; color: white; font-family: comicsansms">STONKS</span>&nbsp;<span style="font-size: 40px; color: white; font-family: bonori">?
+	</span></center>
+</head>
+<body style="background-color:#08114A;">
+	<center>
+		<p></p>
+		<div id="score_string" style="color: white; font-family: futura; font-size: 40px;"></div>
+		
+		<p></p>
+
+		<div id="newer_game_button"></div>
+		<!-- <div id="response_string" style="color: white; font-family: futura; font-size: 24px;"></div> -->
+		<div id="file_name"></div>
+	</center>
+
+	<center>
+		<div id="generateButtons"></div>
+		<div id="response_string" style="color: white; font-family: futura; font-size: 24px;"></div>
+
+		<p></p>
+
+		<div id="forward_button"></div>
+	</center>
+</body>
+</html>
